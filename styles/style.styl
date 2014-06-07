@@ -27,13 +27,7 @@ p
 	position absolute
 	top 0px
 	margin 0
-	center(500px)
-	+below(500px)
-		center(400px)
-	+below(400px)
-		center(300px)
-	width 100%
-
+	font-size 1.3em
 	+above(600px)
 		display none
 
@@ -71,7 +65,8 @@ html, body
 		stack()
 		height: 100%
 		width: 100%
-		padding-top: 120px
+		padding: .5em
+		padding-top: 90px
 
 	// background-color blueblack
 .left
@@ -88,7 +83,7 @@ html, body
 	+below(600px)
 		stack()
 		width:100%
-		height: 100px
+		height: 80px
 		// height:20%
 
 h1
@@ -121,7 +116,7 @@ nav
 		z-index 1
 		position absolute
 		width 100%
-		top 60px
+		top 40px
 .nav
 	span(1/4)
 	text-align center
